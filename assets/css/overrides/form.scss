@@ -1,0 +1,17 @@
+.invalid-feedback {
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 25px;
+
+  label {
+    margin: 5px;
+  }
+
+  .form-control {
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}

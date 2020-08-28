@@ -1,0 +1,9 @@
+<div class="jumbotron margin-top-300 text-center">
+  <div class="page-header">
+    <h2>Welcome to Chat App</h2>
+  </div>
+  <div class="page-header">
+    <h4><small>Choose a room or create one</small></h4>
+    <%= link "Create Room", to: Routes.room_path(@conn, :new), class: "btn btn-purple" %>
+  </div>
+</div>

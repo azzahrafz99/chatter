@@ -1,0 +1,38 @@
+nav {
+  border-bottom: 1px solid $light-grey;
+  height: 70px;
+  padding: 5px 35px;
+  position: fixed !important;
+  width: 100%;
+  z-index: 3;
+
+  .logo {
+    display: block;
+    position: absolute;
+    top: 22px;
+  }
+}
+
+li.nav-item {
+  margin: 0 !important;
+  padding: 5px 0;
+
+  a {
+    margin: 0;
+  }
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.username {
+  margin: 0;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+.navbar-brand {
+  font-size: 19px;
+  font-weight: bold;
+}
